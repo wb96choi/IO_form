@@ -16,9 +16,13 @@
 </head>
 
 <body>
+    <?php
+    echo phpversion();
+    ?>
     <form action="action.php" method="get">
         <fieldset>
             <legend>회원로그인!!!!</legend>
+            
             <ul id="loginBox">
                 <li>
                     <label for="id">아이디</label>
